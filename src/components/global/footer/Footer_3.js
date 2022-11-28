@@ -255,7 +255,7 @@ const FooterTwo = () => {
                             {
                                 rpdata?.tiposPago?.[0]?.activo ?
                                     <li>
-                                        <img src={rpdata?.tiposPago?.[0]?.img} width={'70%'} alt='no found' />
+                                        <img src={rpdata?.tiposPago?.[0]?.img} width={'30%'} alt='no found' />
                                     </li>
                                     : null
                             }
